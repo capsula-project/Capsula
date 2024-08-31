@@ -1,6 +1,4 @@
-
-
-$(function () {
+$(function() {
 
     "use strict";
 
@@ -11,7 +9,7 @@ $(function () {
                 start: "top",
                 endTrigger: ".about-ma",
                 end: "bottom bottom",
-                pin: true, 
+                pin: true,
                 pinSpacing: false
             }
         });
@@ -31,7 +29,7 @@ $(function () {
         },
     });
 
-    $(function () {
+    $(function() {
         let cards = gsap.utils.toArray(".cards .card-item");
 
         let stickDistance = 0;
